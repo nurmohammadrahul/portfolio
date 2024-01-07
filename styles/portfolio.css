@@ -24,6 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 nav>ul {
@@ -46,4 +47,19 @@ nav a {
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
+}
+
+/* nav Header */
+.header {
+    background-color: white;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+
+.banner .profic {
+    width: 584px;
+    height: 676px;
 }
