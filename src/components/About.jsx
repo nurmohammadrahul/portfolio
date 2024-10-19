@@ -1,7 +1,7 @@
 // src/About.js
 import React from 'react';
 import { FaDownload, FaEye } from 'react-icons/fa'; 
-
+import resume from "../assets/CV_NurMohammad.pdf"
 const About = () => {
     return (
         <section
@@ -32,7 +32,7 @@ const About = () => {
 
                 <div className="flex flex-col md:flex-row justify-center space-x-0 md:space-x-4">
                     <a
-                        href="/path/to/your/resume.pdf" target="_blank"
+                        href="https://drive.google.com/file/d/1H7NE-HqXFBju8GdvTAm-lMhR_yWi2EWp/view?usp=drive_link" target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center bg-gradient-to-r from-purple-500 to-yellow-500 text-white px-6 py-2 rounded mb-2 md:mb-0 hover:bg-green-600 transition duration-300"
                     >
@@ -40,7 +40,7 @@ const About = () => {
                         View Resume
                     </a>
                     <a
-                        href=""
+                        href={resume}
                         download
                         className="inline-flex items-center bg-gradient-to-r from-yellow-500 to-purple-700 text-white px-6 py-2 rounded hover:bg-blue-600 transition duration-300"
                     >
