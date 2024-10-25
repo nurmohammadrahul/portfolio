@@ -35,7 +35,7 @@ const educationData = [
 
 const Education = () => {
     return (
-        <section id="education" className="bg-black text-white py-10 min-h-screen">
+        <section id="education" className="bg-black text-white py-10 p-4 min-h-screen">
             <div className="container mx-auto text-center px-4 sm:px-6 md:p-4">
                 <h2 className="text-4xl md:text-5xl font-bold mb-8">Education</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

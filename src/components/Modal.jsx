@@ -61,7 +61,7 @@ const Modal = ({ isOpen, onClose, project }) => {
         <ModalWrapper>
             <ModalContent>
                 <span className="close" onClick={onClose}>&times;</span>
-                <h2>{project.title}</h2>
+                <h2 className='font-extrabold'>{project.title}</h2>
                 <Markdown>
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
                         {project.fullDescription}

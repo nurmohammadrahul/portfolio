@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="flex flex-col mt-14 md:flex-row items-center justify-center md:h-screen bg-black text-white" 
+      className="flex flex-col mt-14 p-4 md:flex-row items-center justify-center md:h-screen bg-black text-white" 
     >
       {/* Image Section */}
       <div className="w-full md:w-[50%] p-4 flex justify-center">
