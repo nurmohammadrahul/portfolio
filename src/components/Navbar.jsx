@@ -9,8 +9,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 p-6 fixed top-0 left-0 w-full z-50 shadow-lg">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-gray-800  fixed top-0 left-0 w-full z-50 shadow-lg">
+      <div className="container mx-auto flex justify-between items-center p-4">
         <div className="text-white text-lg font-bold">Nur Mohammad</div>
         <div className="hidden md:flex space-x-4">
           <a href="#home" className="text-gray-300 hover:text-white">Home</a>
