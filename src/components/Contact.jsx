@@ -19,7 +19,7 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact" className="bg-black text-white py-10  min-h-screen">
+        <section id="contact" className="bg-black text-white py-10   min-h-screen">
             <div className="container mx-auto p-4 sm:p-6 md:p-4">
                 <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">Contact Me</h2>
                 <div className="flex flex-col md:flex-row justify-between items-start">
@@ -27,15 +27,15 @@ const Contact = () => {
                     <div className="flex-1 mb-6 md:mr-4">
                         <div className="text-black bg-gradient-to-r from-purple-100 to-orange-200 p-6 rounded-lg shadow-lg text-center">
                             <h3 className="text-2xl font-semibold mb-4">Get in Touch</h3>
-                            <p className="mb-2 text-2xl font-medium">📧 Email: nur0114@student.nstu.edu.bd</p>
-                            <p className="mb-2 text-2xl font-medium">📞 Phone: (+88) 01673212616</p>
-                            <p className="text-2xl mb-2 font-medium">🏠 Address: Feni, Bangladesh</p>
+                            <p className="mb-2 text-2xl font-medium">📧 Email: <span className='text-violet-900'>nurrahul12@gmail.com</span></p>
+                            <p className="mb-2 text-2xl font-medium">📞 Phone: <span className='text-violet-900'>+8801673212616</span></p>
+                            <p className="text-2xl mb-2 font-medium">🏠 Address: <span className='text-violet-900'>Feni,Bangladesh</span></p>
                         </div>
                     </div>
 
                     {/* Contact Form */}
-                    <div className="flex-1">
-                        <form onSubmit={handleSubmit} className="bg-white p-4 rounded-lg text-xl shadow-lg text-black">
+                    <div className="flex-1 mx-8">
+                        <form onSubmit={handleSubmit} className="bg-white rounded-lg text-xl p-4 shadow-lg text-black">
                             <div className="mb-4">
                                 <label className="block mb-2" htmlFor="name">Name</label>
                                 <input
