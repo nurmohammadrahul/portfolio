@@ -106,7 +106,7 @@ const Projects = () => {
     return (
         <section
             id="projects"
-            className=" bg-black text-white p-4 py-10 min-h-screen md:h-screen flex flex-col"
+            className=" bg-black text-white  py-10 min-h-screen md:h-screen flex flex-col"
         >
             <div className="container mx-auto text-center px-4 sm:px-6  md:p-4">
                 <h2 className="text-4xl md:text-5xl font-bold mb-8">Projects</h2>

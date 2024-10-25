@@ -67,7 +67,7 @@ const Modal = ({ isOpen, onClose, project }) => {
                         {project.fullDescription}
                     </ReactMarkdown>
                 </Markdown>
-                <button onClick={onClose} className='bg-red-600 rounded-md btn-md text-2xl text-white'>Close</button>
+                <button onClick={onClose} className='bg-red-600 p-4 rounded-md btn-md text-2xl text-white'>Close</button>
             </ModalContent>
         </ModalWrapper>
     );

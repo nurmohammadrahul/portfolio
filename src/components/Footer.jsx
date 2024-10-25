@@ -4,7 +4,7 @@ import {  FaFacebookF, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-800 text-white p-4 py-6">
+        <footer className="bg-gray-800 text-white  py-6">
             <div className="container mx-auto px-4 text-center">
                 <p className="mb-2">&copy; {new Date().getFullYear()} Nur Mohammad. </p>
                 <p className='mb-2'>All rights reserved.</p>

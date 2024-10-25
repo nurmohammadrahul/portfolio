@@ -19,7 +19,7 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact" className="bg-black text-white py-10 p-4 min-h-screen">
+        <section id="contact" className="bg-black text-white py-10  min-h-screen">
             <div className="container mx-auto px-4 sm:px-6 md:p-4">
                 <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">Contact Me</h2>
                 <div className="flex flex-col md:flex-row justify-between items-start">

@@ -37,7 +37,7 @@ const Skills = () => {
     return (
         <section
             id="skills"
-            className="bg-black p-4 text-white py-10 min-h-screen flex flex-col justify-center"
+            className="bg-black  text-white py-10 min-h-screen flex flex-col justify-center"
         >
             <div className="container mx-auto text-center px-4 sm:px-6 md:p-4"> 
                 <h2 className="text-4xl md:text-5xl font-bold mb-8">Skills</h2>
