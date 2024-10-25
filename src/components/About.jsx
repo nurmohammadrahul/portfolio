@@ -1,7 +1,7 @@
 // src/About.js
 import React from 'react';
 import { FaDownload, FaEye } from 'react-icons/fa'; 
-import resume from "../assets/CV_NURMOHAMMAD.pdf"
+import resume from "../assets/CV_NurMohammad.pdf"
 const About = () => {
     return (
         <section
